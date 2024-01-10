@@ -49,7 +49,7 @@ The TODO-LIST app is designed to streamline task management, providing users wit
 
 Setting up and running a mobile application involves a few steps. Here are general instructions for setting up and running a TODO mobile application. Note that the specific steps may vary depending on the details of your project and the tools or frameworks you are using.
 
-### Prerequisites:
+## Instructions on how to set up and run the application 
 
 1. **Development Environment:**
    - Install Android Studio, the official IDE for Android development.
@@ -111,3 +111,5 @@ Setting up and running a mobile application involves a few steps. Here are gener
 - Verify that the required dependencies are correctly configured.
 
 By following these instructions, you should be able to set up, run, and interact with your TODO mobile application. Keep in mind that these steps are general guidelines, and you might need to adapt them based on your specific project details.
+
+
