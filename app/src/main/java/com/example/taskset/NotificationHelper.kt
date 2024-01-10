@@ -11,6 +11,7 @@ class NotificationHelper {
         fun scheduleNotification(context: Context, taskTimeMillis: Long) {
             val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
             val intent = Intent(context, AlarmReceiver::class.java)
+            intent.action = "com.example.taskset.ALARM_TRIGGERED"
             val pendingIntent = PendingIntent.getBroadcast(
                 context,
                 0,

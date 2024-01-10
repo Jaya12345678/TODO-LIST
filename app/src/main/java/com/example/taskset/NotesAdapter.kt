@@ -1,8 +1,5 @@
 package com.example.taskset
 
-
-import android.app.AlarmManager
-import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -52,6 +49,7 @@ class NotesAdapter (private var notes:List<Note>,context: Context) :
             Toast.makeText(holder.itemView.context,"Task Deleted",Toast.LENGTH_SHORT).show()
         }
     }
+
 
     fun refreshData(newNotes:List<Note>){
         notes=newNotes

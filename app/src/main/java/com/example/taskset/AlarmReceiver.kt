@@ -10,7 +10,9 @@ import androidx.core.app.NotificationCompat
 class AlarmReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context?, intent: Intent?) {
-        showNotification(context)
+        if (intent?.action == "com.example.taskset.ALARM_TRIGGERED") {
+            showNotification(context)
+        }
     }
 
     private fun showNotification(context: Context?) {

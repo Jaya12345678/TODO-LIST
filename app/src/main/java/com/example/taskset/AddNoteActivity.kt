@@ -1,6 +1,6 @@
 package com.example.taskset
 
-import android.R
+import android.R as AndroidR
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -21,8 +21,8 @@ class AddNoteActivity : AppCompatActivity() {
         db= NotesDBHelper(this)
 
         val priorities = arrayOf("Low", "Medium", "High")
-        val adapter = ArrayAdapter(this, R.layout.simple_spinner_item, priorities)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        val adapter = ArrayAdapter(this, AndroidR.layout.simple_spinner_item, priorities)
+        adapter.setDropDownViewResource(AndroidR.layout.simple_spinner_dropdown_item)
         binding.prioritySpinner.adapter = adapter
 
         binding.saveButton.setOnClickListener{
