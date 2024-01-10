@@ -46,3 +46,68 @@ The TODO-LIST app is a task management application designed to help users organi
 - Notification system for timely reminders
 
 The TODO-LIST app is designed to streamline task management, providing users with an efficient way to stay organized, meet deadlines, and manage their daily responsibilities.
+
+Setting up and running a mobile application involves a few steps. Here are general instructions for setting up and running a TODO mobile application. Note that the specific steps may vary depending on the details of your project and the tools or frameworks you are using.
+
+### Prerequisites:
+
+1. **Development Environment:**
+   - Install Android Studio, the official IDE for Android development.
+   - Make sure you have the necessary SDKs installed via the Android Studio SDK Manager.
+
+2. **Git (Optional):**
+   - If your project is version-controlled with Git, make sure Git is installed on your machine.
+
+### Clone the Repository:
+
+1. **Open Terminal or Command Prompt:**
+   - Navigate to the directory where you want to clone the repository.
+
+2. **Clone the Repository:**
+   - Run the following command to clone the TODO mobile application repository:
+     ```bash
+     git clone https://github.com/Jaya12345678/TODO-LIST
+     ```
+   - If you're not using Git, download the project source code from your project hosting platform (e.g., GitHub).
+
+### Open Project in Android Studio:
+
+1. **Launch Android Studio:**
+   - Open Android Studio.
+
+2. **Open Project:**
+   - Choose "Open an existing Android Studio project."
+   - Navigate to the directory where you cloned/downloaded the TODO mobile application.
+
+### Configure Dependencies:
+
+1. **Sync Gradle:**
+   - Android Studio might prompt you to sync Gradle. Allow it to download and configure the necessary dependencies.
+
+### Run the Application:
+
+1. **Select Target Device:**
+   - Connect a physical Android device or use an Android Virtual Device (AVD).
+   - Select the target device in Android Studio.
+
+2. **Run the App:**
+   - Click on the "Run" (green play) button in Android Studio.
+   - Android Studio will build the project and install the application on the selected device.
+
+### Interact with the TODO App:
+
+1. **Explore the App:**
+   - Once the app is installed, open it on the device.
+   - Explore the user interface to add, edit, and delete tasks.
+
+2. **Set Up Notifications:**
+   - Test the notification system by setting due dates for tasks and observing popup reminders.
+
+
+### Troubleshooting:
+
+- Check the Android Studio console for any error messages.
+- Ensure your Android Studio is up to date.
+- Verify that the required dependencies are correctly configured.
+
+By following these instructions, you should be able to set up, run, and interact with your TODO mobile application. Keep in mind that these steps are general guidelines, and you might need to adapt them based on your specific project details.
