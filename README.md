@@ -119,7 +119,7 @@ By following these instructions, you should be able to set up, run, and interact
 ![Screenshot_20240110-150831_Taskset](https://github.com/Jaya12345678/TODO-LIST/assets/92866763/1b8805b1-c15d-41f7-9f95-a941ab452530)
 ![Screenshot_20240110-151104_Taskset](https://github.com/Jaya12345678/TODO-LIST/assets/92866763/6baefa67-4cbe-42cb-bb08-167fd0f5d274)
 ![Screenshot_20240110-151051_Taskset](https://github.com/Jaya12345678/TODO-LIST/assets/92866763/ad7e62b5-46a6-4e0f-97bb-21e904384175)
-Notification that has occured in this last image
+### Notification that has occured in this last image
 ![Screenshot_20240110-153747_One UI Home](https://github.com/Jaya12345678/TODO-LIST/assets/92866763/84c67a31-9ece-445f-86b2-b4a65dd67b53)
 
 
